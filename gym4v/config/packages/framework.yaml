@@ -1,0 +1,25 @@
+framework:
+    secret: '%env(APP_SECRET)%'
+    csrf_protection: true
+    session:
+        enabled: true
+        handler_id: null
+        cookie_secure: auto
+    serializer:
+        enabled: true
+        enable_attributes: true
+        
+    validation:
+        enabled: true
+    translator:
+        default_path: '%kernel.project_dir%/translations'
+    default_locale: 'en'
+    http_method_override: true
+
+when@test:
+    framework:
+        test: true
+        session:
+            storage_factory_id: session.storage.factory.mock_file
+        profiler:
+            enabled: false
