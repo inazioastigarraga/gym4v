@@ -1,10 +1,10 @@
 # gym4v
 Para ejeutar el proyecto:
-#1. Clonar el repositorio
+# 1. Clonar el repositorio
 git clone https://github.com/tu-usuario/tu-repositorio.git
 cd nombre-del-repositorio
 
-#2. Instalar dependencias
+# 2. Instalar dependencias
 composer install
 
 # 3. Configurar el entorno
